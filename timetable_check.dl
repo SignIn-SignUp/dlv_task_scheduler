@@ -1,5 +1,3 @@
-% checked :  working
-
 match(S,E,T,ID) :- task(S,E,T,ID), slot(S2,E2,T,ID), S>=S2, E<=E2.
 :- task(S,E,T,ID), not match(S,E,T,ID).
 
