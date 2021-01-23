@@ -1,0 +1,8 @@
+% checked :  working
+
+match(S,E,T,ID) :- task(S,E,T,ID), slot(S2,E2,T,ID), S>=S2, E<=E2.
+:- task(S,E,T,ID), not match(S,E,T,ID).
+
+:- task(S,E,T,ID), slot(S2,E2,T,ID), not day(T).
+
+:- room(CL,X,ID), not #count{S,E,D : task(S,E,D,ID)} = CL.

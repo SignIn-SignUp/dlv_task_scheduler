@@ -92,6 +92,6 @@ This command will do the same as the above but will only print the task predicat
 
 [x] :rocket: write some tests
 [x] :bulb: write the guessing part
-[ ] :heavy_check_mark: write the checking part
+[x] :heavy_check_mark: write the checking part
 [ ] :recycle: automate tests
 [ ] :speech_balloon: update README to link definitions
