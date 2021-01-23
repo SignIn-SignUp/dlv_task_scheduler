@@ -1,0 +1,1 @@
+task(S,E,T,ID) v -task(S,E,T,ID)  :- slot(ST,END,T,ID), #int(S), room(C,D,ID), +(S,D,E).
