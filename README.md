@@ -90,7 +90,7 @@ This command will do the same as the above but will only print the task predicat
 
 ## TODO
 
-[ ] :rocket: write some tests
+[x] :rocket: write some tests
 [ ] :bulb: write the guessing part
 [ ] :heavy_check_mark: write the checking part
 [ ] :recycle: automate tests

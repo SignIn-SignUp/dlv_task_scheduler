@@ -1,0 +1,10 @@
+day(mo).
+day(di).
+
+slot(0,1,mo,1).
+slot(2,4,mo,1).
+slot(1,2,di,2).
+
+
+room(1,1,1).
+room(1,1,2).
