@@ -1,3 +1,4 @@
+>___This is a program written for my personal education.___
 # DLV Program
 
 This DLV-Program guesses and then checks schedules for tasks to be executed within given constraints.
@@ -5,7 +6,7 @@ This DLV-Program guesses and then checks schedules for tasks to be executed with
 ## General
 The time in this Program can be represented by a integer.
 
->*In the Range of (60*24) if a granularity of minutes over one day is needed.* \
+>*In the Range of (60\*24) if a granularity of minutes over one day is needed.* \
 >*This can be Scpecified by the argument ```-N=1440```*
 
 The dlv executable is a "dependency" under a different license that must be downloaded from the [dlvsystem-site](http://www.dlvsystem.com/dlv/).
